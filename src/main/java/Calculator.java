@@ -32,6 +32,8 @@ class Calculator {
     /*
     Returns the n'th number in the fibonacci sequence
     */
+
+    
     int fibonacciNumberFinder(int n){
         if (n < 1){
             return 0;
