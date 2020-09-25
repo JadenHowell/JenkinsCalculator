@@ -31,20 +31,7 @@ class Calculator {
 
     /*
     Returns the n'th number in the fibonacci sequence
-    https://en.wikipedia.org/wiki/Fibonacci_number
-    Example below
-    n = x
-    0 = 0
-    1 = 1
-    2 = 1
-    3 = 2
-    4 = 3
-    5 = 5
-    .
-    .
-    .
-    etc
-     */
+    */
     int fibonacciNumberFinder(int n){
         if (n < 1){
             return 0;
