@@ -1,5 +1,8 @@
+import java.util.LinkedList;
+import java.util.List;
 
 class Calculator {
+
 
     Calculator(){
 
@@ -39,7 +42,10 @@ class Calculator {
     etc
      */
     int fibonacciNumberFinder(int n){
-        return 0;
+        if (n < 3){
+            return 1;
+        }
+        return fibonacciNumberFinder(n - 1) + fibonacciNumberFinder(n - 2);
     }
 
 
