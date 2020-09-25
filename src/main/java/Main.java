@@ -12,7 +12,7 @@ public class Main {
 
         String cmdLine = scanner.nextLine();
 
-        List<String> arguments = new LinkedList<>();
+        List<String> arguments;
         arguments = Arrays.asList(cmdLine.split(" "));
 
         while (!arguments.get(0).equals("quit")) {
